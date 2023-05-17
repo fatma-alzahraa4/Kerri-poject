@@ -1,0 +1,228 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.text-main{
+    color: #ff305b !important;
+}
+.bg-main{
+    background-color: #ff305b !important;
+}
+.nav-link:hover{
+    color: #ff305b !important;
+}
+.head{
+    background-image: url(../img/header-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.dark-layer{
+    background-color: rgba(0,0,0,0.6);
+   
+}
+.header-content h1:after{
+    content: '|';
+    animation: typing 9s   infinite ;
+}
+@keyframes typing {
+    0%{content: ' |';}
+    1%{content: ' K|';}
+    2%{content: ' Ke|';}
+    3%{content: ' Ker|';}
+    4%{content: ' Kerr|';}
+    5%{content: ' Kerrri|';}
+    6%{content: ' Kerrri |';}
+    7%{content: ' Kerrri D|';}
+    8%{content: ' Kerrri De|';}
+    9%{content: ' Kerrri Deo|';}
+    10%{content: ' Kerrri Deo.|';}
+    11%{content: ' Kerrri Deo.|';}
+    12%{content: ' Kerrri Deo.|';}
+    13%{content: ' Kerrri Deo|';}
+    14%{content: ' Kerrri De|';}
+    15%{content: ' Kerrri D|';}
+    16%{content: ' Kerrri |';}
+    17%{content: ' Kerrri|';}
+    18%{content: ' Kerrr|';}
+    19%{content: ' Kerr|';}
+    20%{content: ' Ker|';}
+    21%{content: ' Ke|';}
+    22%{content: ' K|';}
+    23%{content: ' |';}
+    24%{content: ' |';}
+    25%{content: ' A|';}
+    26%{content: ' A |';}
+    27%{content: ' A G|';}
+    28%{content: ' A Gr|';}
+    29%{content: ' A Gra|';}
+    30%{content: ' A Grap|';}
+    31%{content: ' A Graph|';}
+    32%{content: ' A Graphi|';}
+    33%{content: ' A Graphic|';}
+    34%{content: ' A Graphic |';}
+    35%{content: ' A Graphic D|';}
+    36%{content: ' A Graphic De|';}
+    37%{content: ' A Graphic Des|';}
+    38%{content: ' A Graphic Desi|';}
+    39%{content: ' A Graphic Desig|';}
+    40%{content: ' A Graphic Design|';}
+    41%{content: ' A Graphic Designe|';}
+    42%{content: ' A Graphic Designer|';}
+    43%{content: ' A Graphic Designer.|';}
+    44%{content: ' A Graphic Designer.|';}
+    45%{content: ' A Graphic Designer.|';}
+    46%{content: ' A Graphic Designer.|';}
+
+    47%{content: ' A Graphic Designer|';}
+    48%{content: ' A Graphic Designe|';}
+    49%{content: ' A Graphic Design|';}
+    50%{content: ' A Graphic Desig|';}
+    51%{content: ' A Graphic Desi|';}
+    52%{content: ' A Graphic Des|';}
+    53%{content: ' A Graphic De|';}
+    54%{content: ' A Graphic D|';}
+    55%{content: ' A Graphic |';}
+    56%{content: ' A Graphic|';}
+    57%{content: ' A Graphi|';}
+    58%{content: ' A Graph|';}
+    59%{content: ' A Grap|';}
+    60%{content: ' A Gra|';}
+    61%{content: ' A Gr|';}
+    62%{content: ' A G|';}
+    63%{content: ' A |';}
+
+    64%{content: ' A|';}
+    65%{content: ' |';}
+    66%{content: ' |';}
+    67%{content: ' A|';}
+    68%{content: ' A |';}
+    69%{content: ' A P|';}
+    70%{content: ' A Ph|';}
+    71%{content: ' A Pho|';}
+    72%{content: ' A Phot|';}
+    73%{content: ' A Photo|';}
+    74%{content: ' A Photog|';}
+    75%{content: ' A Photogr|';}
+    76%{content: ' A Photogra|';}
+    77%{content: ' A Photograp|';}
+    78%{content: ' A Photograph|';}
+    79%{content: ' A Photographe|';}
+    80%{content: ' A Photographer|';}
+    81%{content: ' A Photographer.|';}
+    82%{content: ' A Photographer.|';}
+    83%{content: ' A Photographer.|';}
+    84%{content: ' A Photographer.|';}
+
+
+    85%{content: ' A Photographer|';}
+    86%{content: ' A Photographe|';}
+    87%{content: ' A Photograph|';}
+    88%{content: ' A Photograp|';}
+    89%{content: ' A Photogra|';}
+    90%{content: ' A Photogr|';}
+    91%{content: ' A Photog|';}
+    92%{content: ' A Photo|';}
+    93%{content: ' A Phot|';}
+    94%{content: ' A Pho|';}
+    95%{content: ' A Ph|';}
+    96%{content: ' A P|';}
+    97%{content: ' A |';}
+    98%{content: ' A|';}
+    99%{content: ' |';}  
+    100%{content: ' |';}
+
+
+
+    
+}
+.mouse{
+    width: 30px;
+    height: 50px;
+    border:solid 2px white ;
+    bottom: 10%;
+    left: 50%;
+    position: relative;
+
+}
+.mouse:after{
+    content: '';
+    width: 2px;
+    height: 9px;
+    border-radius: 3px;
+    background-color: white;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.setting-icon{
+    width: 40px;
+    height: 46px;
+    z-index: 999;
+}
+.arrow-icon{
+    width: 44px;
+    height: 50px;
+    background-color: #ff305b;
+    z-index: 9999;
+
+}
+.about-icons div{
+    width: 38px;
+    height: 38px;
+    border-color: rgb(190, 190, 190) !important;
+    transition: all 0.3s;
+}
+.about-icons div:hover{
+    background-color: #ff305b;
+    color: white;
+    border: none !important;
+}
+.bg-muted{
+    background-color: rgb(244, 244, 244);
+}
+.item h2::after{
+    content: '';
+    width: 17% ;
+    height:1.5px ;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ff305b;
+    
+}
+.item{
+    border-color: rgb(202, 202, 202) !important;
+}
+
+.nav-pills .active{
+    background-color: #ff305b !important;
+    color: white !important;
+    
+}
+
+.tab-pane .layer{
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.tab-pane .layer:hover{
+    opacity: 0.8;
+}
+.blog-content .blog-a:hover{
+    color:#ff305b;
+}
+.bg-gray{
+    background-color: rgb(59, 59, 59);
+    transition: all 0.5s;
+}
+.bg-gray:hover{
+    background-color:#ff305b;
+    color: white;
+}
+.carousel-indicators [data-bs-target]{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-indent: 0;
+}
